@@ -29,12 +29,11 @@ Example for reproducing the MS Edge sourcemaps bug
   "file": "src/test.js",
   "sourcesContent": [
     "\n(function () {\n  var test = true\n  if (test) {\n    document.write('Hello world')\n  } else {\n    document.write('Whatever')\n  }\n})()\n"
-  ],
-  "sourceRoot": "file:///c:/Users/felix/git/opensource/edge-sourcemaps-bug"
+  ]
 }
 ```
 
-As you can see, the `sourceRoot` is correctly set to the root folder and the source file is correctly referenced with `src/test.js`.
+No `sourceRoot` is set and the source file is referenced relatively with `src/test.js`.
 
 ## Expected Dev Tools Output (Chrome Debugger)
 ![Chrome Dev Tools Screenshot](images/chrome.png)
@@ -42,5 +41,6 @@ As you can see, the `sourceRoot` is correctly set to the root folder and the sou
 ## Actual Dev Tools Output (Edge)
 ![Edge Dev Tools Screenshot](images/edge.png)
 
- - the root folder is not shown at all
- - the `src` folder is duplicated (the same behaviour would occur for any referenced folder, like `node_modules`)
+The `src` folder is
+ - not shown as a subdirectory of `localhost`
+ - duplicated (the same behaviour would occur for any referenced folder, like `node_modules`)

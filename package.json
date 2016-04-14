@@ -10,7 +10,6 @@
   "author": "Felix Becker",
   "license": "MIT",
   "devDependencies": {
-    "file-url": "^1.1.0",
     "gulp": "^3.9.1",
     "gulp-if": "^2.0.0",
     "gulp-rename": "^1.2.2",
