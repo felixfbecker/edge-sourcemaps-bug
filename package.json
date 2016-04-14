@@ -1,0 +1,20 @@
+{
+  "name": "edge-sourcemaps-bug",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixfbecker/edge-sourcemaps-bug.git"
+  },
+  "author": "Felix Becker",
+  "license": "MIT",
+  "devDependencies": {
+    "file-url": "^1.1.0",
+    "gulp": "^3.9.1",
+    "gulp-if": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3"
+  }
+}
