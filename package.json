@@ -10,11 +10,11 @@
   "author": "Felix Becker",
   "license": "MIT",
   "devDependencies": {
-    "file-url": "^1.1.0",
+    "file-url": "^2.0.2",
     "gulp": "^3.9.1",
     "gulp-if": "^2.0.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-uglify": "^1.5.3"
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-uglify": "^2.0.1"
   }
 }
