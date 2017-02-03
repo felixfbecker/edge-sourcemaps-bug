@@ -1,6 +1,8 @@
 Example for reproducing the MS Edge sourcemaps bug
 
 ## How to build
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/felixfbecker/edge-sourcemaps-bug.svg)](https://greenkeeper.io/)
  - Install NodeJS and NPM
  - Run `npm install`
  - Run `npm run build`
